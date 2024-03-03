@@ -1,0 +1,52 @@
+.contact__container{
+    display: grid;
+    place-items: center;
+    background: url("https://images.unsplash.com/photo-1487017159836-4e23ece2e4cf?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    
+    
+}
+
+.contact__wrapper{
+    width: fit-content;
+    display: flex;
+    gap: 2rem;
+    margin: 200px;
+    
+    
+}
+
+.contact__wrapper a{
+    background: transparent;
+    font-size: 2rem;
+    border: 2px solid white;
+    
+    padding: 2rem;
+    border-radius: 1.5rem;
+}
+
+.contact__wrapper a:hover{
+    background: green;
+    border-color: black;
+    transition: 1s;
+}
+
+@media screen and (max-width: 1040px){
+    .contact__wrapper{
+        gap: 1.5rem;
+        max-width: -100px;
+        margin: 100px;
+
+    }
+    .contact__wrapper a{
+        padding: 1rem;
+        font-size: 1.2rem;
+        border-radius: 1rem;
+        
+        border: transparent;
+    }
+    .contact__wrapper a:hover{
+        background: transparent;
+        border-color: black;
+        transition: 1s;
+    }
+}

@@ -4,6 +4,7 @@ import React from 'react'
 import pro1 from "../assets/hardweb front.png"
 import pro2 from "../assets/old portfolio.png"
 import pro3 from "../assets/workout.png"
+import pro4 from "../assets/img4.png"
 import { NavLink } from "react-router-dom"
 const Workcard = () => {
   return (
@@ -39,6 +40,17 @@ const Workcard = () => {
                     <p>I have completed this project during my Traineeship in MedTourEasy,I learned about data analysis using python programming and also used jupyter notebook in this project ,Click down below to View Report and Code.</p>
                     <div className="pro-btns">
                        <button className="view"> <NavLink to = "https://github.com/xscap/MTE_proj" classname = "btn" target="_blank">View</NavLink></button>
+                    </div>
+                </div>
+            </div>
+
+          <div className="project-card">
+                <img src={pro4} alt="img" />
+                <h2 className="project-title">Student Marks Analysis</h2>
+                <div className="pro-details">
+                    <p>Dowloaded a dataset from kaggle and worked on various operations usng python libraries and also found meaningful insights from tha above result which are written in the comments</p>
+                    <div className="pro-btns">
+                       <button className="view"> <NavLink to = "https://github.com/xscap/DA2" classname = "btn" target="_blank">View</NavLink></button>
                     </div>
                 </div>
             </div>
